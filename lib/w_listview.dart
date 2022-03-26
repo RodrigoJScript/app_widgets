@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class EstadoListView extends StatefulWidget{
+class EstadoListView extends StatefulWidget {
+  const EstadoListView({Key? key}) : super(key: key);
+
   @override
-  State<EstadoListView> createState()=> _EstadoListView();
+  State<EstadoListView> createState() => _EstadoListView();
 }
 
-
-
-class _EstadoListView extends State<EstadoListView>{
+class _EstadoListView extends State<EstadoListView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -19,21 +19,26 @@ class _EstadoListView extends State<EstadoListView>{
           Container(
             height: 70,
             color: Colors.yellow[700],
-            child: Center(child: Text("Leon"),),
+            child: Center(
+              child: Text("Leon"),
+            ),
           ),
           Container(
             height: 70,
             color: Colors.white,
-            child: Center(child: Text("Aguila"),),
+            child: Center(
+              child: Text("Aguila"),
+            ),
           ),
           Container(
             height: 70,
             color: Colors.orange[800],
-            child: Center(child: Text("Leopardo"),),
+            child: Center(
+              child: Text("Leopardo"),
+            ),
           ),
         ],
       ),
     );
   }
-
 }

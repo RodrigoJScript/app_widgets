@@ -3,6 +3,8 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 
 class EstadoAppBotones extends StatefulWidget {
+  const EstadoAppBotones({Key? key}) : super(key: key);
+
   @override
   State<EstadoAppBotones> createState() => _EstadoAppBotones();
 }
@@ -55,10 +57,10 @@ class _EstadoAppBotones extends State<EstadoAppBotones> {
               child: Container(
                 decoration: BoxDecoration(
                     gradient: LinearGradient(colors: <Color>[
-                      Color(0xFF0D47A1),
-                      Color(0xFF1976D2),
-                      Color(0xFF42A5F5),
-                    ])),
+                  Color(0xFF0D47A1),
+                  Color(0xFF1976D2),
+                  Color(0xFF42A5F5),
+                ])),
                 child: Text("Gradient colors"),
               ),
             ),

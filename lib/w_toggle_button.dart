@@ -31,7 +31,7 @@ class _EstadoToggleButton extends State<EstadoToggleButton> {
               isSelected: _selecciones,
               onPressed: (int indice) {
                 setState(() {
-                  _selecciones[indice] =! _selecciones[indice];
+                  _selecciones[indice] = !_selecciones[indice];
                 });
               },
             ),

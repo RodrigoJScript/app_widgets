@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class EstadoSwitchButton extends StatefulWidget {
-  const EstadoSwitchButton({Key? key}) : super(key: key);
+class EstadoToltipButton extends StatefulWidget {
+  const EstadoToltipButton({Key? key}) : super(key: key);
 
   @override
-  State<EstadoSwitchButton> createState() => _EstadoSwitchButton();
+  State<EstadoToltipButton> createState() => _EstadoToltipButton();
 }
 
-class _EstadoSwitchButton extends State<EstadoSwitchButton> {
+class _EstadoToltipButton extends State<EstadoToltipButton> {
   bool isSwitched = false;
 
   @override

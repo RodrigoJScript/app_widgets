@@ -1,12 +1,15 @@
 import 'package:flutter/material.dart';
 
-class EstadoContainer extends StatefulWidget{
+class EstadoContainer extends StatefulWidget {
+  const EstadoContainer({Key? key}) : super(key: key);
+
   @override
   State<EstadoContainer> createState() => _EstadoContainer();
 }
 
-class _EstadoContainer extends State<EstadoContainer>{
-  Color? color_con=Colors.blue;
+class _EstadoContainer extends State<EstadoContainer> {
+  Color? color_con = Colors.blue;
+
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
@@ -16,7 +19,9 @@ class _EstadoContainer extends State<EstadoContainer>{
       body: Center(
         child: Column(
           children: [
-            SizedBox(height: 10,),
+            SizedBox(
+              height: 10,
+            ),
             Container(
               height: 150,
               width: 200,
@@ -29,5 +34,4 @@ class _EstadoContainer extends State<EstadoContainer>{
       ),
     );
   }
-
 }
